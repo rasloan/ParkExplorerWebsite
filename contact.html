@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Park Explorer</title>
+        <link  rel="stylesheet"  type="text/css" href="layout.css">
+    </head>
+    <body>
+        <header>
+            <div id="homeButton">
+                <input type="image" src="Home.svg" name="homeButton" id="homeButton" class="homeNavigation">
+                <a href="index.html" class="homeNavigation">Home</a> 
+            </div>
+
+            <div>
+                <a href="photos.html" class="pageNavigation">Photo Gallery</a>
+                <a href="resources.html" class="pageNavigation">Resources</a>
+                <a href="contact.html" class="pageNavigation">Contact</a>
+        </header>
+
+        <div id="bodyElements">
+            <h1>Contact</h1>
+
+            <fieldset id="form">
+                <div class="fieldElement">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div class="fieldElement">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="fieldElement">
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+                </div>
+
+                <div class="fieldElement" id="emailCheckbox">
+                    <input type="checkbox" id="emailOffers">
+                    <label for="emailOffers">Receive email offers</label>
+                </div>
+
+                <div>
+                    <button type="submit" id="submitForm">Submit</button>
+                </div>
+            </fieldset>
+        </div>
+    </body>
+</html>
